@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
 
 function genNewBet() {
-    fetch('http://localhost:3000/euro')
+    fetch('https://euro2.onrender.com/euro')
         .then(response => response.json())  // Parse the response as JSON
         .then(bet => {
             console.log(bet);
